@@ -1,0 +1,41 @@
+
+.notif_card {
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  img{
+    width: 50px;
+  }
+  .description{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:hsl(224, 21%, 14%);
+  }
+  strong{
+    color: hsl(224, 21%, 14%);
+    cursor: pointer;
+  }
+  
+  strong:hover{
+    color: var(--Blue);
+  }
+  p{
+    color:hsl(219, 12%, 42%);
+  }
+  b{
+    color:hsl(219, 12%, 42%);
+    cursor: pointer;
+  }
+  b:hover{
+    color: var(--Blue);
+  }
+  @media screen and (max-width:550px) {
+    .notif_cardu nread{
+      margin: 0;
+     }
+  }
+
